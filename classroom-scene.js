@@ -226,6 +226,7 @@ function createDesk(x, z) {
     scene.add(screen);
 
     // Chair
+    createChair(x, z + 1.0);
 
     // Student
     createStudent(x, z + 0.8);
